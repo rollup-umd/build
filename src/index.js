@@ -1,45 +1,17 @@
+import path from 'path';
+const { spawn } = require('child_process'); // See https://github.com/calvinmetcalf/rollup-plugin-node-builtins/issues/50
+
 /**
- * Code your first module here
+ * @public
+ * Run build script from node
+ * @param {function} cb - A callback function
  */
-
-export default class DemoClass {
-  static testStatic = 'This is a static test';
-
-  testAttribute = 'This is a test attribute';
-
-  state = {
-    list: ['a', 'b'],
-    isSpreadActive: true,
-    isTestLiving: true,
-  };
-
-  hasInList(value) {
-    return this.state.list.includes(value);
-  }
-
-  getReplacedEnv() {
-    return process.env.NODE_ENV;
-  }
-
-  getIsSpreadActive() {
-    const { isSpreadActive, ...rest } = this.state; // eslint-disable-line no-unused-vars
-    return isSpreadActive;
-  }
-
-  getRest() {
-    const { isSpreadActive, ...rest } = this.state;
-    return rest;
-  }
-
-  getTestStatic() {
-    return DemoClass.testStatic;
-  }
-
-  getTestAttribute() {
-    return this.testAttribute;
-  }
-
-  setTestAttribute(testAttribute) {
-    this.testAttribute = testAttribute;
-  }
+export default function test(cb) {
+  const args = [];
+  const ls = spawn('bash', [path.join(__dirname, 'build.sh')].concat(args), { stdio: 'inherit' });
+  ls.on('close', (code) => {
+    if (cb) {
+      cb(null, code);
+    }
+  });
 }

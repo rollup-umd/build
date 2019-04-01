@@ -52,7 +52,7 @@
     "yeutech.vn",
     "build"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "eslintConfig": {
     "parser": "babel-eslint",
     "extends": "airbnb-base",
@@ -206,14 +206,14 @@
   },
   "peerDependencies": {},
   "publishConfig": {
-    "tag": "latest",
-    "registry": "https://npm.kopaxgroup.com"
+    "registry": "https://npm.kopaxgroup.com",
+    "tag": "latest"
   },
   "release": {
     "branch": "master",
     "success": false,
     "fail": false,
-    "npmPublish": false,
+    "npmPublish": true,
     "verifyConditions": [
       {
         "path": "@semantic-release/exec",
@@ -295,10 +295,10 @@
     ],
     "coverageThreshold": {
       "global": {
-        "statements": 100,
-        "branches": 100,
-        "functions": 100,
-        "lines": 100
+        "statements": 0,
+        "branches": 0,
+        "functions": 0,
+        "lines": 0
       }
     },
     "moduleDirectories": [
@@ -313,5 +313,23 @@
   },
   "declinationId": "cli",
   "contributors": [],
-  "private": true
+  "transitive": {
+    "name": "build",
+    "scope": "rollup-umd",
+    "scopedName": "@rollup-umd/build",
+    "jsnext:main": "dist/@rollup-umd/build.esm.js",
+    "module": "dist/@rollup-umd/build.esm.js",
+    "homepage": "https://rollup-umd.github.io/build",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rollup-umd/build.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rollup-umd/build/issues"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org"
+    }
+  }
 }
