@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/rollup-umd/build/compare/v1.0.2...v1.0.3) (2019-04-01)
+
+
+### Bug Fixes
+
+* **build:** fix build npm install not running when not on for travis ([b7db00c](https://github.com/rollup-umd/build/commit/b7db00c))
+
 ## [1.0.2](https://github.com/rollup-umd/build/compare/v1.0.1...v1.0.2) (2019-04-01)
 
 
