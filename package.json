@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://module.kopaxgroup.com/dka/build.git"
+    "url": "https://module.kopaxgroup.com/rollup-umd/build.git"
   },
   "bugs": {
-    "url": "https://module.kopaxgroup.com/dka/build/issues"
+    "url": "https://module.kopaxgroup.com/rollup-umd/build/issues"
   },
   "keywords": [
     "cli",

@@ -7,13 +7,13 @@ CI build job.
 
 **Master**
 
-[![build status](https://module.kopaxgroup.com/dka/build/badges/master/build.svg)](https://module.kopaxgroup.com/dka/build/commits/master)
-[![coverage report](https://module.kopaxgroup.com/dka/build/badges/master/coverage.svg)](https://module.kopaxgroup.com/dka/build/commits/master)
+[![build status](https://module.kopaxgroup.com/rollup-umd/build/badges/master/build.svg)](https://module.kopaxgroup.com/rollup-umd/build/commits/master)
+[![coverage report](https://module.kopaxgroup.com/rollup-umd/build/badges/master/coverage.svg)](https://module.kopaxgroup.com/rollup-umd/build/commits/master)
 
 **Dev**
 
-[![build status](https://module.kopaxgroup.com/dka/build/badges/dev/build.svg)](https://module.kopaxgroup.com/dka/build/commits/dev)
-[![coverage report](https://module.kopaxgroup.com/dka/build/badges/dev/coverage.svg)](https://module.kopaxgroup.com/dka/build/commits/dev)
+[![build status](https://module.kopaxgroup.com/rollup-umd/build/badges/dev/build.svg)](https://module.kopaxgroup.com/rollup-umd/build/commits/dev)
+[![coverage report](https://module.kopaxgroup.com/rollup-umd/build/badges/dev/coverage.svg)](https://module.kopaxgroup.com/rollup-umd/build/commits/dev)
 
 
 ## Table of Contents
