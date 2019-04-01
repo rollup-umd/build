@@ -312,24 +312,5 @@
     ]
   },
   "declinationId": "cli",
-  "contributors": [],
-  "transitive": {
-    "name": "build",
-    "scope": "rollup-umd",
-    "scopedName": "@rollup-umd/build",
-    "jsnext:main": "dist/@rollup-umd/build.esm.js",
-    "module": "dist/@rollup-umd/build.esm.js",
-    "homepage": "https://rollup-umd.github.io/build",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rollup-umd/build.git"
-    },
-    "bugs": {
-      "url": "https://github.com/rollup-umd/build/issues"
-    },
-    "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org"
-    }
-  }
+  "contributors": []
 }
