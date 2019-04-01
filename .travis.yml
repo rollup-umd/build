@@ -41,7 +41,7 @@ jobs:
         - '10'
         - '8'
       script:
-        - npm run build
+        - ./src/build.sh
     # Job: Test
     - stage: test
       node_js:
