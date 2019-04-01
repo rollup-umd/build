@@ -1,6 +1,6 @@
 {
   "name": "@yeutech/build",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "CI build job",
   "main": "lib/index.js",
   "bin": "lib/cli/index.js",
@@ -38,7 +38,8 @@
     "jsdoc": "jsdoc-documentation --file",
     "prestyleguide": "npm run jsdoc",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "postinstall": "node -e \"console.log('\\u001b[31m@yeutech/build is deprecated, use @rollup-umd/build instead.')\" || exit 0"
   },
   "repository": {
     "type": "git",
