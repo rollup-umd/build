@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/rollup-umd/build/compare/v1.0.3...v1.1.0) (2020-04-25)
+
+
+### Features
+
+* **yarn:** added yarn npm build ([7fd67cd](https://github.com/rollup-umd/build/commit/7fd67cdb0b64ab53a0e7526795b0a2270baf3e4e))
+
 ## [1.0.3](https://github.com/rollup-umd/build/compare/v1.0.2...v1.0.3) (2019-04-01)
 
 
