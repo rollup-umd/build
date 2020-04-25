@@ -1,6 +1,6 @@
 {
   "name": "@rollup-umd/build",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "CI build job",
   "main": "lib/index.js",
   "bin": "lib/cli/index.js",
