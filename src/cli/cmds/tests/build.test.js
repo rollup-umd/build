@@ -1,14 +1,14 @@
 import {
-  // builder,
+  builder,
   command,
   desc,
   handler,
 } from '../build';
 
 describe('build example', () => {
-  // it('builder should be defined', () => {
-  //   expect(builder).toBeDefined();
-  // });
+  it('builder should be defined', () => {
+    expect(builder).toBeDefined();
+  });
   it('command should be defined', () => {
     expect(command).toBeDefined();
   });
