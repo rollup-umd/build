@@ -31,7 +31,7 @@ done
 if [[ ! -d node_modules ]] || [[ ! -v TRAVIS_BUILD_ID ]]; then
   if [[ ${installer} = yarn ]]; then
     echo "Installing dependencies with ${installer}"
-    [[ $(which yarn) = "" ]] && curl -o- -L https://yarnpkg.com/install.sh | bash
+    [[ $(which yarn) = "" ]] && export PATH=$HOME/.yarn/bin:$PATH && curl -o- -L https://yarnpkg.com/install.sh | bash
     yarn
   else
     npm install
